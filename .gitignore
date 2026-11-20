@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+build/
+dist/
+.venv/
+*.old
+*.new
+# PyInstaller 每次打包都會重寫，不必進版控
+ro-queue.spec
+ro-queue-special.spec
+# 開發日記與開發工具腳本只留本機，不進版控
+DEVELOP.md
+dev/
+# 背景圖原始素材與舊版成品（程式只用 assets\bg_576x596.png 與 assets\manual\）
+assets/*.jpg
+assets/bg_576x432.png
+# 原始碼與建置腳本只留本機，公開 repo 只放文件與素材
+ro_queue.py
+build_exe.py
+ro_queue_special_entry.py
+# 開發 session log 只留本機
+*-session-log.json
